@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    /* below is just to give spacing for now */
+    /* min-height: 600px; */
+}
+
+ul {
+    /* removes bullet points */
+    list-style-type: none;
+}
+
+.section-item {
+    margin: auto;
+}
+
+    /* the > li is defined as the child. looks for specific things in that sections */
+ul > li {
+    display: inline;
+    margin: 10px;
+}
+
+h1 {
+    border-bottom: 5px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
