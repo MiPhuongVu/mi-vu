@@ -12,8 +12,10 @@ nav > ul {
   margin: 0;
   padding: 0;
   display: inline;
+  list-style-type: none;
 }
 
 .mv-logo {
-  margin: 0 auto; 
+  position: relative;
+  text-align: center;
 }
