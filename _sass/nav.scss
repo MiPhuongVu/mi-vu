@@ -8,6 +8,10 @@
 //   height:150px;
 }
 
+nav {
+ margin: auto; 
+}
+
 nav > ul {
   margin: auto;
   padding: 0;
@@ -18,5 +22,7 @@ nav > ul {
 .mv-logo {
   position: relative;
   text-align: center;
-  margin: 10px 10px 10px 10px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
