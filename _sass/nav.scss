@@ -1,5 +1,5 @@
 .main-nav {
-  outline: 1px solid black;
+  border-top: 5px $secondary-color;
   background-color: $base-color;
   flex-flow: row wrap;
   display:flex;
